@@ -1,2 +1,3 @@
-hash2 = Hash.new("dos")
-puts hash2[:two]
+n = 5
+@values = (1..n).map {rand(max=6) + 1}
+puts @values
